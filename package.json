@@ -1,0 +1,24 @@
+{
+  "name": "ok-utils",
+  "version": "1.0.0",
+  "description": "Set of most common utility functions",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "repository": "git@github.com:Oksana-1/ok-utils.git",
+  "author": "oksana-1 <4438488@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  },
+  "dependencies": {
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "prettier": "^2.6.2"
+  }
+}
